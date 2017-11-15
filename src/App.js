@@ -9,11 +9,8 @@ const style = {
   justifyContent: "space-around"
 };
 
+
 class App extends Component {
-  constructor(props) {
-    super(props);
-    console.log("props: ", props);
-  }
   render() {
     return (
       <div className="App">
